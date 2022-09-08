@@ -8,7 +8,7 @@ public class Estudiante extends Persona implements IntAlumno1, IntAlumno2 {
     private String calificacion;
 
     public Estudiante() {
-        super("YESSI", 19, "M", "ATLACOMULCO");
+        super("YESSI", 19, "F", "ATLACOMULCO");
     }
 
     public Estudiante(String nombre, int edad, String sexo, String direccion, String
@@ -48,5 +48,20 @@ public class Estudiante extends Persona implements IntAlumno1, IntAlumno2 {
         System.out.println("no de Cuenta: " + noCuenta);
         System.out.println("Curso: " + curso);
         System.out.println("calificación: " + calificacion);
+    }
+
+    @Override
+    public void mostrarCurso() {
+
+    }
+
+    @Override
+    public Void mostrarGRado() {
+        return null;
+    }
+
+    @Override
+    public void etrarCurso() {
+
     }
 }
