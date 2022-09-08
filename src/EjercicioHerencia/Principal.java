@@ -1,3 +1,8 @@
+package EjercicioHerencia;
+
+import EjercicioHerencia.Estudiante;
+import EjercicioHerencia.Persona;
+
 public class Principal {
     public static void main(String[] args) {
         Persona p1 = new Persona("MARIO", 19, "M", "ATLACOMULCO");

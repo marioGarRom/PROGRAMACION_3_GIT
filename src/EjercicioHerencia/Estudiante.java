@@ -1,4 +1,8 @@
-public class Estudiante extends Persona {
+package EjercicioHerencia;
+
+import Interfaces.*;
+
+public class Estudiante extends Persona implements IntAlumno1, IntAlumno2 {
     private String noCuenta;
     private String curso;
     private String calificacion;

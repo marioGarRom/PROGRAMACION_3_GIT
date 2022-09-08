@@ -1,3 +1,5 @@
+package EjercicioHerencia;
+
 public class Persona {
     protected String nombre, sexo, direccion;
     protected int edad;

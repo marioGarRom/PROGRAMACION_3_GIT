@@ -2,7 +2,7 @@ package Figuras;
 
 public class Cuadrado extends Figura {
     private double lado1;
-    private double area;
+    private double areaz;
     private double perimetro;
 
     public Cuadrado(double lado1) {
