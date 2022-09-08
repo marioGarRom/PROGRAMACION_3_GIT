@@ -17,11 +17,7 @@ public class Cuadrado extends Figura{
         return 4*lado1;
     }
     public String toString() {
-        return "Cuadrado{ " +
-                "lado1= " + lado1 +
-                ", area= " + calcularArea() +
-                ", perimetro= " + calcularPerimetro() +
-                '}';
+        return "Cuadrado{ " + "lado1= " + lado1 + ", area= " + calcularArea() + ", perimetro= " + calcularPerimetro() + '}';
     }
 
 }

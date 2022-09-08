@@ -29,12 +29,6 @@ public class Triangulo extends Figura {
 
     @Override
     public String toString() {
-        return "Triangulo{ " +
-                "lado1= " + lado1 +
-                ", lado2= " + lado2 +
-                ", lado3= " + lado3 +
-                ", area= " + calcularArea() +
-                ", perimetro= " + calcularPerimetro() +
-                '}';
+        return "Triangulo{ " + "lado1= " + lado1 + ", lado2= " + lado2 + ", lado3= " + lado3 + ", area= " + calcularArea() + ", perimetro= " + calcularPerimetro() + '}';
     }
 }
