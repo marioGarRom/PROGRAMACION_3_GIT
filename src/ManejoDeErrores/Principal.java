@@ -10,5 +10,10 @@ public class Principal {
             System.out.println("Hay un error en del codigo");
         }
         System.out.println("FINAL");
+        try {
+            System.out.println(numero[5]);
+        }catch (java.lang.ArrayIndexOutOfBoundsException e){
+            System.out.println("Error: "+ e.getMessage());
+        }
     }
 }
