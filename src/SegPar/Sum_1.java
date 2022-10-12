@@ -1,4 +1,5 @@
 package SegPar;
+// Addition program that uses JOptionPane for input and output.
 
 import javax.swing.JOptionPane;
 
