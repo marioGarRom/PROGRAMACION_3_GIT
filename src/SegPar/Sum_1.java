@@ -12,6 +12,6 @@ public class Sum_1 {
         int number2 = Integer.parseInt(secondNumber);
         int sum = number1 + number2;
         // display the results in a JOptionPane message dialog
-        JOptionPane.showMessageDialog(null, "The sum is" + sum, "Sum of two integers", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(null, "The sum is: " + sum, "Sum of two integers", JOptionPane.PLAIN_MESSAGE);
     }
 }// end class Sum
