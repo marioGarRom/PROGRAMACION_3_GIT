@@ -2,7 +2,7 @@ package SegPar;
 
 import javax.swing.JOptionPane;
 
-public class Sum {
+public class Sum_1 {
     public static void main(String[] args) {
 
         String firstNumber = JOptionPane.showInputDialog("Enter the first integer");
