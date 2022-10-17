@@ -1,6 +1,6 @@
 package SegPar;
 
-// Prueba de MarcoDemoTeclas.
+// KeyDemoFrame test.
 
 import javax.swing.JFrame;
 
