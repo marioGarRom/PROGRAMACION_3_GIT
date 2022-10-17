@@ -1,5 +1,6 @@
 package SegPar;
 // JcheckBox buttons and element events.
+
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.event.ItemListener;
@@ -31,6 +32,7 @@ public class FrameCheckBox_5 extends JFrame {
         boldJCheckBox.addItemListener(handler);
         italicsJCheckBox.addItemListener(handler);
     }
+
     // private inner class for handling ItemListener events
     private class FrameCheckBox implements ItemListener {
         // respond to checkbox events
