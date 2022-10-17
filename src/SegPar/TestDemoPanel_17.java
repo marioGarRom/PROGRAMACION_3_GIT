@@ -1,5 +1,5 @@
 package SegPar;
-// Prueba de MarcoPanel.
+// MarcoPanel test.
 
 import javax.swing.*;
 

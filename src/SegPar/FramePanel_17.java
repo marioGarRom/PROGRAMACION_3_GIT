@@ -1,5 +1,5 @@
 package SegPar;
-// Uso de un objeto JPanel para ayudar a distribuir los componentes.
+// Use of a JPanel object to help layout components.
 
 import java.awt.GridLayout;
 import java.awt.BorderLayout;

@@ -1,6 +1,6 @@
 package SegPar;
 
-// BorderLayout que contiene cinco botones.
+// BorderLayout containing five buttons.
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionListener;

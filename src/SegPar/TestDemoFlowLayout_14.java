@@ -1,6 +1,6 @@
 package SegPar;
 
-// Prueba MarcoFlowLayout.
+// Test FrameworkFlowLayout.
 
 import javax.swing.JFrame;
 

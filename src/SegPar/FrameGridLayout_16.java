@@ -1,5 +1,5 @@
 package SegPar;
-// GridLayout que contiene seis botones.
+// GridLayout containing six buttons.
 
 import java.awt.GridLayout;
 import java.awt.Container;
