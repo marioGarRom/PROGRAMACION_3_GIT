@@ -3,7 +3,7 @@ package SegPar;
 
 import javax.swing.JFrame;
 
-public class TestTextField_03 {
+public class TestTextField_3 {
     public static void main(String[] args) {
         FieldTextFrame_3 fieldTextFrame = new FieldTextFrame_3();
         fieldTextFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
