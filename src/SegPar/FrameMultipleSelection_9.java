@@ -9,14 +9,14 @@ import javax.swing.JButton;
 import javax.swing.JScrollPane;
 import javax.swing.ListSelectionModel;
 
-public class MultipleSelectionFrame_9 extends JFrame {
+public class FrameMultipleSelection_9 extends JFrame {
     private final JList<String> listJListColors;// list to store color names
     private final JList<String> listJListCopy; // list into which the color names are to be copied
     private JButton buttonJButtonCopy;// button to copy the selected names
-    private static final String[] colorNames = {"Black", "Blue", "Cyan", "Dark Grey", "Grey", "Green", "Light Grey", "Magenta", "Orange", "Pink" , "Red", "White", "Yellow"};
+    private static final String[] colorNames = {"Black", "Blue", "Cyan", "Dark Grey", "Grey", "Green", "Light Grey", "Magenta", "Orange", "Pink", "Red", "White", "Yellow"};
 
     // Constructor of MultiSelectionFrame
-    public MultipleSelectionFrame_9() {
+    public FrameMultipleSelection_9() {
         super("Multiple-choice lists");
         setLayout(new FlowLayout());
 

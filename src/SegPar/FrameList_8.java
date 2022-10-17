@@ -12,8 +12,8 @@ import javax.swing.ListSelectionModel;
 public class FrameList_8 extends JFrame {
 
     private final JList<String> listJListColors; // list to display colors
-    private static final String[] colorNames = {"Black", "Blue", "Cyan", "Dark Grey", "Grey", "Green", "Light Grey", "Magenta", "Orange", "Pink" , "Red", "White", "Yellow"};
-    private static final Color[] colors = {Color.BLACK, Color.BLUE, Color.CYAN, Color.DARK_GRAY, Color.GRAY, Color.GREEN, Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, Color .RED, Color.WHITE, Color.YELLOW};
+    private static final String[] colorNames = {"Black", "Blue", "Cyan", "Dark Grey", "Grey", "Green", "Light Grey", "Magenta", "Orange", "Pink", "Red", "White", "Yellow"};
+    private static final Color[] colors = {Color.BLACK, Color.BLUE, Color.CYAN, Color.DARK_GRAY, Color.GRAY, Color.GREEN, Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, Color.RED, Color.WHITE, Color.YELLOW};
 
     // The ListFrame constructor adds the JScrollPane containing the JList to the JFrame
     public FrameList_8() {
