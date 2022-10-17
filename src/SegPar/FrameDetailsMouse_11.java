@@ -26,7 +26,7 @@ public class FrameDetailsMouse_11 extends JFrame {
 
             details = String.format("Clicked %d time(s)", event.getClickCount());
             if (event.isMetaDown()) // right mouse button
-                details +="with the right mouse button" ;
+                details += "with the right mouse button";
             else if (event.isAltDown()) // middle mouse button
                 details += "with the middle mouse button";
             else // left mouse button
