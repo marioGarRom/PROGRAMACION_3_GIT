@@ -23,6 +23,7 @@ public class FrameDemoKeys_13 extends JFrame implements KeyListener {
         add(TextArea); // add the textarea to JFrame
         addKeyListener(this); // allows the framework to process key events
     }
+
     // handle the event of pressing any key
     @Override
     public void keyPressed(KeyEvent event) {
@@ -30,18 +31,21 @@ public class FrameDemoKeys_13 extends JFrame implements KeyListener {
                 KeyEvent.getKeyText(event.getKeyCode())); // show the key pressed
         setLines2and3(event); // set output lines two and three
     }
+
     // handle the event of releasing any key
     @Override
     public void keyReleased(KeyEvent event) {
         line1 = String.format("Key released: %s", KeyEvent.getKeyText(event.getKeyCode())); // show the released key
         setLines2and3(event); // set output lines two and three
     }
+
     // handle the event of pressing an action key
     @Override
     public void keyTyped(KeyEvent event) {
         line1 = String.format("Key pressed: %s", event.getKeyChar());
         setLines2and3(event); // set output lines two and three
     }
+
     // set output lines two and three
     private void setLines2and3(KeyEvent event) {
         line2 = String.format("This key %s is an action key", (event.isActionKey() ? "" : "no "));

@@ -11,8 +11,7 @@ public class TestPainter_12 {
         DrawingPanel_12 Drawing = new DrawingPanel_12();
         application.add(Drawing, BorderLayout.CENTER);
         // create a label and place it in the SOUTH region of the BorderLayout
-        application.add(new JLabel("Drag the mouse to draw"),
-                BorderLayout.SOUTH);
+        application.add(new JLabel("Drag the mouse to draw"), BorderLayout.SOUTH);
         application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         application.setSize(400, 200);
         application.setVisible(true);
